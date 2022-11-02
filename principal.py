@@ -1,7 +1,7 @@
 from heuristicSearch import heuristicSearch
 
 if __name__ == "__main__":
-    direccion = "/Users/jeste/Desktop/Clase/Segundo/IA/Tema_2_ExploracionEstados/dataset/Vienna_metro"
+    direccion = "."
     h = heuristicSearch()
     h.initGraph(direccion, "Vienna subway.csv", "Start", "Stop", sepa= ";")
     print(h)
