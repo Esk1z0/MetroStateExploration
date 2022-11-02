@@ -1,9 +1,9 @@
 from heuristicSearch import heuristicSearch
 
 if __name__ == "__main__":
-    direccion = "./data"
+    direccion = "data/"
     h = heuristicSearch()
-    h.initGraph(direccion, "Vienna subway.csv", "Start", "Stop", sepa= ";")
+    h.initGraph(direccion, "Vienna_subway.csv", "Start", "Stop", sepa= ";")
     print(h)
     
     h.set_PrintProcess = False

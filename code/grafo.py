@@ -21,7 +21,7 @@ class Grafo:
         
         
         os.chdir(adress)
-        data = pd.read_csv(adress + "/" + fileName, sep = sepa)
+        data = pd.read_csv(fileName, sep = sepa)
         
         entradas = data[Start].to_list()
         salidas = data[Stop].to_list()
